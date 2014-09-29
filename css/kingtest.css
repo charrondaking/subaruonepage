@@ -1,0 +1,1124 @@
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* Main Header - Nav Area */
+body {
+	background: #333;
+	width: 1050;
+	height: auto;
+}
+
+nav {
+	height: 200px;
+	width: 1050px;
+	margin: .25em auto;
+	background-color: white; 
+	box-shadow: 0px 10px 10px #0f1011;
+	position: relative;
+}
+
+
+/* header_text div */
+#header_text {
+	font-size: .75em;
+	font-family: ;
+	color: #1e4882;
+	padding: .5em 0em 0em 2em;
+}
+
+
+/* logo_area div */
+#logo {
+	height: 110px;
+	width: auto;
+	padding: 0em 0em 0em 2em;
+}
+
+.nav_text {
+	font-family: arial;
+}
+
+#tag_line {
+	position: relative;
+	top: -14px;
+	margin: 0em 0em 0em 4em;
+	font-size: .80em;
+	color: #666;
+}
+
+#lable {
+	position: relative;
+	top: -100px;
+	left: 125px;
+	margin: 0em 0em 0em 2em;
+	font-size: 3em;
+	font-weight: bold;
+	color: #666;
+}
+
+
+/* main_nav div */
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+nav a:hover, nav a:active {
+         color: black;
+}
+
+.hover_line {
+	display: block;
+	margin: -1em 0em 0em -.4em;
+	padding: 0em;
+	background: url("../images/line.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.hover_line:hover, .hover_line:active {
+	background: url("../images/linehover.png");
+	background-repeat: no-repeat;
+}
+
+#first_hover {
+	height: 20px;
+	width: 135px;
+}
+
+#sec_hover {
+	height: 20px;
+	width: 143px;
+}
+
+#third_hover {
+	height: 20px;
+	width: 185px;
+}
+
+.top_nav_buttons {
+	float: left;
+	margin: 2em 1em 0em .5em;
+	position: relative;
+	top: -125px;
+	left: 215px;
+	font-style: italic;
+}
+
+
+/* sub_nav div */
+#home_icon {
+	height: 45px;
+	float: left;
+	position: relative;
+	top: -40px;
+	left: -467px;
+}
+
+.sub_nav_buttons {
+	font-size: 1em;
+	position: relative;
+	color: #1e4882;
+}
+
+#sub_nav {
+
+}
+
+#fix_about {
+	position: relative;
+	top: -22px;
+	left: -440px;
+}
+
+#fix_gear {
+	position: relative;
+	top: -39px;
+	left: -360px;;
+}
+
+#fix_parts {
+	position: relative;
+	top: -56px;
+	left: -205px;
+	margin: 0em 0em 0em 2em;
+}
+/* end remove styles */
+
+
+/* Top Search Bar */
+
+/* top_search_bar div */
+#top_search_bar {
+	margin: 0em;
+	padding:0em;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	color: white;
+}
+
+textarea {
+	margin: 0em;
+	border-style: solid;
+    border-width: .75em 1em 1em 6em;
+	border-color: #666;
+	text-align: center;
+	font-family: arial;
+	color: #666;
+	position: relative;
+	top: -134px;
+	right: -740px;
+	height: 20px;
+	width: 185px;
+	background-color: white;
+	border-radius: 2px;
+}
+
+#search {
+	display: block;
+	margin: 0em 0em 0em 47em;
+	position: relative;
+	height: auto;
+	width: 0em;
+	top: -105px;
+	right: 0px;
+	z-index: 100;
+}
+
+#search_icon {
+	height: 22px;
+	margin: 0em;
+	padding:0em;
+	position: relative;
+	right: -705px;
+	top: -148px;
+	visibility: hidden;
+}
+
+#facebook {
+	height: 25px;
+	position: relative;
+	right: -155px;
+	top: -90px;
+	
+}
+/* End Header - Nav Area */
+
+
+
+
+/* Section */
+section {
+	margin: 0em auto;
+	width: 990px;
+	height: auto;
+
+}
+
+#section_img {
+	width: 990px;
+	margin: -2.5em 0em 0em 0em;	
+}
+
+#sec_text_top {
+	text-align: left;
+	margin: 1em 0em 0em 1em;
+	position: relative;
+	top: -135px;
+	left: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#sec_text_bttm {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+	position: relative;
+	top: -145px;
+	left: -255px;
+	font-size: .95em;
+	font-weight: bold;
+}
+/* End Section */
+
+
+/* Article */
+article {
+	background-color: white;
+	width: 990px;
+	height: 500px;
+	margin: -5.8em auto;
+}
+
+/* blue_bar div */
+#blue_bar {
+	width: 880px;
+	height: 45px;
+	margin: .1em auto;
+	background-color: #1e4882;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em; 
+}
+
+#select_dealer {
+	margin: 0em 0em 0em 1em;
+	padding: .6em 0em 0em 0em;
+}
+
+/* dealer_search div */
+#dealer_search {
+	margin: 3em 0em 0em 10em;
+}
+
+#zipcode {
+	font-weight: bold;
+	float: left;
+	font-size: 1.5em;
+	margin: -1em 0em 0em 0em;
+}
+
+#go_button {
+	background-color: #1e4882;
+	color: white;
+	font-weight: bold;
+	width: 3em;
+	height: 3em;
+	margin: 0em;
+	position: relative;
+	top: -35px;
+}
+
+#main_search_box {
+	height: 2.5em;
+	margin: 0em -.4em 0em 20em;
+	position: relative;
+	top: -35px;
+}
+
+
+/* grey_box div */
+#grey_box {
+	height: 70px;
+	width: 1100px;
+	background-color: #666;
+	margin: 30.8em 0em 0em -18em;
+}
+
+#warn {
+	height: 45px;
+	margin: 0em 0em 0em 0em;
+	position: relative;
+	left: -445px;
+	top: 5px;
+}
+
+.warn_text{
+	font-size: 1em;
+	text-align: left;
+	padding: 0em 0em 0em 0em;
+	position: relative;
+	left: 140px;
+	top: -30px;
+}
+/* End Article */
+
+
+	
+/* Footer */
+
+#ie9footer {
+	margin: 0em;
+	padding: 0em;
+}
+
+span {
+	color: white;
+	margin: 1em 2em 2em 2em;
+}
+
+#left {
+	text-align: left;
+	float: left;
+	color: #666;
+	font-weight: bold;
+}
+
+.right {
+	float: right;
+	color: white;
+	font-weight: bold;
+}
+
+#polices {
+	margin: 0em 0em 0em .5em;
+
+}
+
+#web05 {
+	float: left;
+	font-weight: bold;
+	margin: 3em 0em 0em -13em;
+}
+h1 {
+	position: relative;
+	left: 140px;
+	top: -13px;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+/* End Footer  */
+
+/* Start Media Queries */
+/* //////// Phones 320 //////// */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+body {
+	background: #333;
+	width: 380;
+	height: auto;
+}
+
+nav {
+	height: 100px;
+	width: 380px;
+	margin: .25em auto;
+	background-color: white; 
+	box-shadow: 0px 10px 10px #0f1011;
+	position: relative;
+}
+
+
+/* header_text div */
+#header_text {
+	font-size: .75em;
+	font-family: ;
+	color: #1e4882;
+	padding: .5em 0em 0em 2em;
+	visibility: hidden;
+}
+
+
+/* logo_area div */
+#logo {
+	height: 100px;
+	width: auto;
+	padding: 0em 0em 0em 0em;
+	margin: -2em 0em 0em 0em;
+}
+
+.nav_text {
+	font-family: arial;
+}
+
+#tag_line {
+	position: relative;
+	top: -14px;
+	margin: 0em 0em 0em 1em;
+	font-size: .80em;
+	color: #666;
+}
+
+#lable {
+	position: relative;
+	top: -100px;
+	left: 125px;
+	margin: 0em 0em 0em 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #666;
+}
+
+
+/* main_nav div */
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+nav a:hover, nav a:active {
+         color: black;
+}
+
+.hover_line {
+	display: block;
+	margin: -1em 0em 0em -.4em;
+	padding: 0em;
+	background: url("../images/line.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	visibility: hidden;
+}
+
+.hover_line:hover, .hover_line:active {
+	background: url("../images/linehover.png");
+	background-repeat: no-repeat;
+	visibility: hidden;
+}
+
+#first_hover {
+	position: relative;
+		
+}
+
+#sec_hover {
+	position: relative;
+	top: 100px;
+}
+
+#third_hover {
+	position: relative;
+	top: 10px;
+}
+
+.top_nav_buttons {
+	margin: .1em;
+	padding: 1em;
+	position: relative;
+	left: 5px;
+	top: 25px;
+	background-color: white;
+}
+
+
+/* sub_nav div */
+#home_icon {
+	height: 45px;
+	position: relative;
+	top: -133px;
+	left: 30px;
+	z-index: 200;
+	visibility: visible;
+}
+
+.sub_nav_buttons {
+	visibility: hidden;
+}
+
+#sub_nav {
+	visibility: hidden;
+}
+
+#fix_about {
+	visibility: hidden;
+}
+
+#fix_gear {
+	visibility: hidden;
+}
+
+#fix_parts {
+	visibility: hidden;
+}
+/* end remove styles */
+
+
+/* Top Search Bar */
+
+/* top_search_bar div */
+#top_search_bar {
+	margin: 0em;
+	padding:0em;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	color: white;
+	visibility: hidden;
+}
+
+textarea {
+	margin: 0em;
+	visibility: hidden;
+}
+
+#search {
+	display: block;
+	margin: 0em 0em 0em 0em;
+	visibility: hidden;
+}
+
+#search_icon {
+	height: 22px;
+	margin: 0em;
+	visibility: hidden;
+}
+
+#facebook {
+	height: 25px;
+	position: relative;
+	right: -185px;
+	top: -198px;
+	z-index: 200;
+	visibility: visible;
+	
+}
+/* End Header - Nav Area */
+
+
+
+
+/* Section */
+section {
+	margin: 0em auto;
+	width: 380px;
+	height: auto;
+
+}
+
+#section_img {
+	width: 380px;
+	margin: -0em 0em 0em 0em;
+	position: relative;
+	top: -137px;
+
+}
+
+#sec_text_top {
+	text-align: left;
+	margin: 1em 0em 0em 1em;
+	position: relative;
+	top: -190px;
+	left: 0px;
+	font-size: .65em;
+	font-weight: bold;
+}
+
+#sec_text_bttm {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+	position: relative;
+	top: -10px;
+	left: -80px;
+	font-size: .5em;
+	font-weight: bold;
+	visibility: hidden;
+}
+/* End Section */
+
+
+/* Article */
+article {
+	background-color: white;
+	width: 380px;
+	height: 200px;
+	margin: 0em auto;
+}
+
+/* blue_bar div */
+#blue_bar {
+	width: 380px;
+	height: 45px;
+	margin: -.5em 0em -2em 0em;
+	background-color: #1e4882;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em; 
+	position: relative;
+	top: -45px;
+}
+
+#select_dealer {
+	margin: 0em 0em 0em 1em;
+	padding: .6em 0em 0em 0em;
+}
+
+/* dealer_search div */
+#dealer_search {
+	margin: .5em 0em 0em .5em;
+}
+
+#zipcode {
+	font-weight: bold;
+	float: left;
+	font-size: 1.5em;
+	margin: 0em 0em 0em .5em;
+}
+
+#go_button {
+	background-color: #1e4882;
+	color: white;
+	font-weight: bold;
+	width: 3em;
+	height: 3em;
+	margin: 0em;
+	position: relative;
+	top: 5px;
+}
+
+#main_search_box {
+	height: 2.5em;
+	margin: 1em -.5em 0em 1em;
+	position: relative;
+	top: 0px;
+	
+}
+
+
+/* grey_box div */
+#grey_box {
+	height: 60px;
+	width: 380px;
+	background-color: #666;
+	margin: 10em 0em 0em -.8em;
+
+}
+
+#warn {
+	height: 35px;
+	margin: 0em 0em 0em 0em;
+	position: relative;
+	left: -160px;
+	top: 65px;
+}
+
+.warn_text{
+	font-size: .85em;
+	text-align: left;
+	padding: 0em 0em 0em 0em;
+	position: relative;
+	left: 5px;
+	top: -30px;
+}
+/* End Article */
+
+
+	
+/* Footer */
+
+#ie9footer {
+	margin: 0em;
+	padding: 0em;
+}
+
+span {
+	color: white;
+	margin: 1em 1em 1em 4em;
+}
+
+#left {
+	text-align: left;
+	float: left;
+	color: #666;
+	font-weight: bold;
+}
+
+.right {
+	color: white;
+	font-weight: bold;
+	position: relative;
+	left: -100px;
+}
+
+#polices {
+	margin: 0em 0em 0em .5em;
+	position: relative;
+	left: 2px;
+
+}
+
+#web05 {
+	float: left;
+	font-weight: bold;
+	margin: 3em 0em 0em -13em;
+}
+h1 {
+	position: relative;
+	left: 140px;
+	top: -13px;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+/* End Footer  */
+} /* End Phone Query */
+
+
+/* //////// Smart Phones 480 //////// */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+body {
+	background: #333;
+	width: 480;
+	height: auto;
+}
+
+nav {
+	height: 120px;
+	width: 480px;
+	margin: .25em auto;
+	background-color: white; 
+	box-shadow: 10px 0px 10px #0f1011;
+	position: relative;
+}
+
+
+/* header_text div */
+#header_text {
+	font-size: .5em;
+	font-family: ;
+	color: #1e4882;
+	padding: .5em 0em 0em 2em;
+	visibility: hidden;
+}
+
+
+/* logo_area div */
+#logo {
+	height: 130px;
+	width: auto;
+	padding: 0em 0em 0em 0em;
+	margin: -1em 0em 0em 0em;
+}
+
+.nav_text {
+	font-family: arial;
+}
+
+#tag_line {
+	position: relative;
+	top: -14px;
+	margin: .5em 0em 0em 1.2em;
+	font-size: 1em;
+	color: #666;
+}
+
+#lable {
+	position: relative;
+	top: -120px;
+	left: 155px;
+	margin: 0em 0em 0em 1em;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #666;
+}
+
+
+/* main_nav div */
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+nav a:hover, nav a:active {
+         color: black;
+}
+
+.hover_line {
+	display: block;
+	margin: -1em 0em 0em -.4em;
+	padding: 0em;
+	background: url("../images/line.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	visibility: hidden;
+}
+
+.hover_line:hover, .hover_line:active {
+	background: url("../images/linehover.png");
+	background-repeat: no-repeat;
+	visibility: hidden;
+}
+
+#first_hover {
+	position: relative;
+		
+}
+
+#sec_hover {
+	position: relative;
+	top: 100px;
+}
+
+#third_hover {
+	position: relative;
+	top: 10px;
+}
+
+.top_nav_buttons {
+	margin: .25em;
+	padding: .75em;
+	position: relative;
+	left: 5px;
+	top: 25px;
+	background-color: white;
+	font-size: 1.2em;
+}
+
+/* sub_nav div */
+#home_icon {
+	height: 45px;
+	position: relative;
+	top: -178px;
+	left: 150px;
+	z-index: 200;
+	visibility: visible;
+}
+
+.sub_nav_buttons {
+	visibility: hidden;
+}
+
+#sub_nav {
+	visibility: hidden;
+}
+
+#fix_about {
+	visibility: hidden;
+}
+
+#fix_gear {
+	visibility: hidden;
+}
+
+#fix_parts {
+	visibility: hidden;
+}
+/* end remove styles */
+
+
+/* Top Search Bar */
+
+/* top_search_bar div */
+#top_search_bar {
+	margin: 0em;
+	padding:0em;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	color: white;
+	visibility: hidden;
+}
+
+textarea {
+	margin: 0em;
+	visibility: hidden;
+}
+
+#search {
+	display: block;
+	margin: 0em 0em 0em 0em;
+	visibility: hidden;
+}
+
+#search_icon {
+	height: 22px;
+	margin: 0em;
+	visibility: hidden;
+}
+
+#facebook {
+	height: 25px;
+	position: relative;
+	top: -205px;
+	left: 40px;
+	z-index: 200;
+	visibility: visible;
+	
+}
+/* End Header - Nav Area */
+
+
+
+
+/* Section */
+section {
+	margin: 0em auto;
+	width: 480px;
+	height: auto;
+
+}
+
+#section_img {
+	width: 480px;
+	margin: -0em 0em 0em 0em;
+	position: relative;
+	top: 25px;
+
+}
+
+#sec_text_top {
+	text-align: left;
+	margin: 1em 0em 0em 1em;
+	position: relative;
+	top: -40px;
+	left: -370px;
+	font-size: .69em;
+	font-weight: bold;
+}
+
+#sec_text_bttm {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+	position: relative;
+	top: -10px;
+	left: -80px;
+	font-size: .5em;
+	font-weight: bold;
+	visibility: hidden;
+}
+/* End Section */
+
+
+/* Article */
+article {
+	background-color: white;
+	width: 480px;
+	height: 350px;
+	margin: 0em auto;
+	position: relative;
+	top: 145px;
+}
+
+/* blue_bar div */
+#blue_bar {
+	width: 480px;
+	height: 45px;
+	margin: -.75em 0em -8em 0em;
+	background-color: #1e4882;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em; 
+	position: relative;
+	top: -45px;
+}
+
+#select_dealer {
+	margin: 0em 0em 0em -12em;
+	padding: .6em 0em 0em 0em;
+	float: left;
+}
+
+/* dealer_search div */
+#dealer_search {
+	margin: .5em 0em 0em .5em;
+}
+
+#zipcode {
+	font-weight: bold;
+	float: left;
+	font-size: 1.5em;
+	margin: -1em 0em 0em .65em;
+}
+
+#go_button {
+	background-color: #1e4882;
+	color: white;
+	font-weight: bold;
+	width: 3em;
+	height: 3em;
+	margin: 0em;
+	position: relative;
+	top: 5px;
+}
+
+#main_search_box {
+	height: 2.5em;
+	margin: 1em -.5em 0em 1em;
+	position: relative;
+	top: 0px;
+	
+}
+
+
+/* grey_box div */
+#grey_box {
+	height: 60px;
+	width: 480px;
+	background-color: #666;
+	margin: 15em 0em 0em -.8em;
+
+}
+
+#warn {
+	height: 35px;
+	margin: 0em 0em 0em 0em;
+	position: relative;
+	left: -210px;
+	top: 65px;
+}
+
+.warn_text{
+	font-size: .85em;
+	text-align: left;
+	padding: 0em 0em 0em 0em;
+	position: relative;
+	left: 5px;
+	top: -30px;
+}
+/* End Article */
+
+
+	
+/* Footer */
+
+#ie9footer {
+	margin: 0em;
+	padding: 0em;
+}
+
+span {
+	color: white;
+	margin: 1em 1em 1em 4em;
+}
+
+#left {
+	text-align: left;
+	float: left;
+	color: #666;
+	font-weight: bold;
+}
+
+.right {
+	color: white;
+	font-weight: bold;
+	position: relative;
+	left: -100px;
+}
+
+#polices {
+	margin: 0em 0em 0em .5em;
+	position: relative;
+	left: 2px;
+
+}
+
+#web05 {
+	float: left;
+	font-weight: bold;
+	margin: 3em 0em 0em -13em;
+}
+h1 {
+	position: relative;
+	left: 140px;
+	top: -13px;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+/* End Footer  */
+
+} /* End  Smart Phone Query */
+
+
+
